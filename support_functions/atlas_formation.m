@@ -45,12 +45,12 @@ IM_new.Key(1:333,1) = 1:333;
 IM_new.Key(1:333,2) = renew_consensus_wsbm(group_idx,k);
 
 
-IM.name = sprintf('WU120_WSBM_consensus_%d_Gordon_333_Parcels_2014',k);
+IM.name = sprintf('HCP_WSBM_consensus_%d_Gordon_333_Parcels_2014',k);
 IM.key = IM_new.Key;
 IM.order = group_idx';
 IM.Nets = [];
 IM.cMap = new_customcolor;
 IM.Parcels = Parcels;
 
-save(fullfile('/data/wheelock/data1/people/Ayoushman/WSBM_neuro_comm/atlases', ...
-    sprintf('WU120_WSBM_consensus_%d_Gordon_333_Parcels_2014.mat',k)),'IM');
+save(fullfile('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_KM_SC-main/atlases', ...
+    sprintf('HCP_WSBM_consensus_%d_Gordon_333_Parcels_2014.mat',k)),'IM');
