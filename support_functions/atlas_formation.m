@@ -15,7 +15,7 @@ IM.Nets = [];
 IM.cMap = customcolor(net_seq,:);
 IM.Parcels = Parcels;
 
-save(fullfile('/data/wheelock/data1/people/Ayoushman/WSBM_neuro_comm/atlases', ...
+save(fullfile('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/atlases', ...
     'BCP_SC_15_Gordon_333_Parcels_2014.mat'),'IM');
 
 
@@ -28,7 +28,7 @@ IM.Nets = [];
 IM.cMap = new_customcolor;
 IM.Parcels = Parcels;
 
-save(fullfile('/data/wheelock/data1/people/Ayoushman/WSBM_neuro_comm/atlases', ...
+save(fullfile('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/atlases', ...
     'BCP_WSBM_15_Gordon_333_Parcels_2014.mat'),'IM');
 
 
