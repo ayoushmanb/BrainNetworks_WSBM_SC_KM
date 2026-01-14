@@ -1,3 +1,9 @@
+%% add paths
+
+addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/support_functions');
+addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/atlases');
+
+%% load the data
 % HCP
 data_path = '/data/wheelock/data1/datasets/HCP/HCP_965_10min_Gordon333_20221123/mat/HCP_965_10min_Gordon333_20221123_Rest1.mat';
 load(data_path);
@@ -27,6 +33,8 @@ ave_fcmat = mean(tanh(fcmat),3);
 ave_fcmat = ave_fcmat + diag(ones(1,333));
 clear data_path fcmat;
 
-mean_mat = community_mean(ave_fcmat, IM);
+%% load the IM
+
+% mean_mat = community_mean(ave_fcmat, IM);
 
 community_structure(ave_fcmat, IM);
