@@ -29,6 +29,10 @@ clear zmat;
 ave_fcmat = mean(tanh(fcmat),3);
 ave_fcmat = ave_fcmat + diag(ones(1,333));
 
+%% Plot without ordering
+
+mat_plot(ave_fcmat, "T", "F", 20, 5);
+
 
 %% load the IM file
 
