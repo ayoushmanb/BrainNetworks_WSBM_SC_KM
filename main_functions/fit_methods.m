@@ -3,10 +3,11 @@
 
 %% add necessary file paths
 
+% load  WSBM from https://aaronclauset.github.io/wsbm/
 addpath('/data/wheelock/data1/software/Aicher_2015_WSBM/WSBM_v1.3')
 addpath('/data/wheelock/data1/software/Aicher_2015_WSBM/WSBM_v1.3/private')
-addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/main_functions')
-addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/support_functions')
+addpath('./main_functions')
+addpath('./support_functions')
 
 
 %% Data preprocessing

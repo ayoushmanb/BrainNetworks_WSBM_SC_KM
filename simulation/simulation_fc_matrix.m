@@ -3,7 +3,7 @@
 
 %% add necessary file paths
 
-addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/support_functions')
+addpath('./support_functions')
 
 %% load the data
 

@@ -1,7 +1,7 @@
 %% add paths
 
-addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/support_functions');
-addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/atlases');
+addpath('./support_functions');
+addpath('./atlases');
 
 %% load the data
 % HCP

@@ -1,6 +1,6 @@
 % load all the method_results from apply_method
 % kmeans_results, wsbm_results, sc_results
-addpath('/data/wheelock/data1/people/Ayoushman/BrainNetworks_WSBM_SC_KM/support_functions');
+addpath('./support_functions');
 
 %% Load the atlas
 
